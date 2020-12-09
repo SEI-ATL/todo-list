@@ -2,9 +2,10 @@ import './App.css';
 import MyList from './MyList';
 
 function App(props) {
+  console.log(props.sally);
   return (
     <div className="App">
-      <MyList theList={props.theList} />
+      <MyList jeremyList={props.sally} />
     </div>
   );
 }

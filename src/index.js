@@ -8,7 +8,7 @@ var toDos = ["Buy ice cream", "Eat ice cream", "Go to the gym"]
 
 ReactDOM.render(
   <React.StrictMode>
-    <App theList={toDos}/>
+    <App sally={toDos}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

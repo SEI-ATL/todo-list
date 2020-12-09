@@ -7,7 +7,7 @@ class MyList extends Component {
     constructor (props) {
       super()
       this.state = {
-        toDoItemArray: props.theList
+        toDoItemArray: props.jeremyList
       }
     }
   
@@ -18,7 +18,7 @@ class MyList extends Component {
     }
   
     render() {
-      let todoItems = this.state.toDoItemArray.map( (item, index) => (
+      let todoItems = this.state.toDoItemArray.map((item, index) => (
         <ListItem doThis={item} key={index} />
       ))
   
